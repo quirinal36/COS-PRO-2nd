@@ -4,8 +4,8 @@ class Solution01 {
     
     public int[] func_a(int[] gloves){
         int[] counter = new int[maxProductNumber + 1];
-        for(int i = 0; i < gloves.length; i++)
-            @@@
+        for(int i = 0; i < gloves.length; i++) 
+        	@@@
         return counter;
     }
     
@@ -27,5 +27,12 @@ class Solution01 {
 
         // [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
         System.out.println("solution 메소드의 반환 값은 " + ret + " 입니다.");
+        
+        int[] leftGloves2 = {3, 5, 2, 4, 1, 2, 3, 4, 3, 3};
+        int[] rightGloves2 = {2, 2, 3, 1, 4, 3, 3, 1, 2};
+        int ret2 = sol.solution(leftGloves2, rightGloves2);
+
+        // [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
+        System.out.println("solution 메소드의 반환 값은 " + ret2 + " 입니다.");
     }
 }
