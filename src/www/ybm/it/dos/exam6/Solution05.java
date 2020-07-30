@@ -4,8 +4,8 @@ class Solution05 {
         int answer = 0;
 
         int emptyBottle = answer = money / price;
-        while(n <= emptyBottle) {
-        	emptyBottle = emptyBottle - n;
+        while(n <= @@@) {
+        	emptyBottle = @@@;
         	answer++;
         	emptyBottle++;
         }
