@@ -1,13 +1,13 @@
 package www.ybm.it.dos.exam1;
 class Solution09 {
     public String solution(String characters){
-        String result = "";
-        result += characters.charAt(0);
-        for (int i = 0; i < characters.length(); i++) {
-            if (characters.charAt(i - 1) != characters.charAt(i))
-                result += characters.charAt(i);
-        }
-        return result;
+    	 String result = "";
+         result += characters.charAt(0);
+         for (int i = 0; i < characters.length(); i++) {
+             if (characters.charAt(i - 1) != characters.charAt(i))
+                 result += characters.charAt(i);
+         }
+         return result;
     }
 
     // The following is main method to output testcase. The main method is correct and you shall correct solution method.
